@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-# Format Practice
+## Format Practice
 
 ### R Markdown
 ##  R Markdown
@@ -27,18 +27,22 @@ knitr::opts_chunk$set(echo = TRUE)
 **bold**  
 *italics*
 
-# Insert a chunk
+## Insert a chunk
 - Ctrl+Alt+I (Windows) 
 
 ```{r}
 print("Hello world")
 ```
 
-# Run the code 
+## Run the code 
 - select the code and use Ctrl+Enter  
 - hit the green run button  
 - using Ctrl+Shift+Enter to run the entire chunk
 
-# Making bulleted list
+## Making bulleted list
 - start with a single dash, followed by a space.at the end of each bullet’s line, end with TWO spaces.
 
+## strike through some test
+~~strikethtough~~
+
+[Rmarkdown cheetsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf "Rmarkdown cheetsheet")
