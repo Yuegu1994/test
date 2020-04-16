@@ -1,0 +1,44 @@
+---
+title: "R Practice"
+author: "Yue"
+date: "Today"
+output: html_document
+
+
+---
+# R Markdown practice
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Install R Markdown package
+```{r}
+##install.packages("rmarkdown")
+
+```
+
+# Format Practice
+
+### R Markdown
+##  R Markdown
+#   R Markdown
+
+**bold**  
+*italics*
+
+# Insert a chunk
+- Ctrl+Alt+I (Windows) 
+
+```{r}
+print("Hello world")
+```
+
+# Run the code 
+- select the code and use Ctrl+Enter  
+- hit the green run button  
+- using Ctrl+Shift+Enter to run the entire chunk
+
+# Making bulleted list
+- start with a single dash, followed by a space.at the end of each bullet’s line, end with TWO spaces.
+
